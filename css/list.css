@@ -1,0 +1,213 @@
+#nav .nav_list li.nav_category{
+    position: relative;
+}
+#nav .nav_list li:hover .site_category{ 
+    display: block;
+}
+#nav .nav_list .nav_category .site_category{
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: -85px;
+    background-color: white;
+    border: 1px solid #ff6700;
+    padding: 20px 0;
+    display: none;
+}
+#nav .nav_list .site_category ul li{
+    width: 234px;
+    height: 40px;
+    line-height: 40px;
+}
+#nav .site_category ul li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    padding-left: 30px;
+    box-sizing: border-box;    
+    color: #424242;
+    font-size: 14px;
+}
+#nav .site_category ul li> a:hover{
+    background-color: #ff6700;
+    color: white;
+}
+
+#nav .site_category ul li:hover .children_category{
+    display: block;
+}
+#nav .site_category .children_category{
+    width: 992px;
+    position: absolute;
+    top: 0px;
+    left: 235px;
+    z-index: 10;
+    height: 440px;
+    display: none;
+}
+#nav .site_category .children_category ol{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 3px 0px 3px #eee;
+}
+#nav .site_category .children_category ol li{
+    position: relative;
+    width: 225px;
+    height: 40px;
+    float: left;
+    color: #333;
+    z-index: 50;
+    padding: 15px 10px;
+    /* background-color: yellow; */
+}
+#nav .children_category ol li a{
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+#nav .children_category ol li a:hover{
+    background-color: white;
+    color: #ff6700;
+}
+#nav .children_category ol li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+#main{
+    background: #f5f5f5;
+}
+#main .main_header{
+    height: 170px;
+    background: url("../images/3cba013aa492551729f3a42e1668b9d9.jpg") center center no-repeat;
+}
+#main .main_header_title{
+    text-indent: -9999px;
+    overflow: hidden;
+}
+#main .main_banner{
+    position: absolute;
+    top: 102px;
+}
+#main .main_banner li{
+    float: left;
+    width: 20%;
+    height: 68px;
+    color: #fff;
+    background-color: #414141;
+    font-size: 18px;
+    line-height: 68px;
+    text-align: center;
+}
+#main .main_banner li.on{
+    background-color: #f1393a;
+}
+#main .main_banner li.on a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#main .main_banner li.on span{
+    display: inline-block;
+    height: 48px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+#main .main_banner li.on a > em{
+    display: inline-block;
+    height: 68px;
+    line-height: 68px;
+    font-size: 18px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+#main .main_cont{
+    margin-top: 20px;
+}
+#main .main_cont ul li{
+    width: 400px;
+    height: 190px;
+    background-color: white;
+    margin: 0 8px 8px 0;
+    position: relative;
+    float: left
+}
+#main .main_cont .box_cont{
+    margin-left: 210px;
+    padding-right: 20px;
+}
+#main .main_cont .box_cont .box_cont_title{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#main .main_cont .box_cont .box_cont_tips{
+    color: rgba(0,0,0,0.54);
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+#main .main_cont .box_price em{
+    font-size: 16px;
+    color: #f1393a;
+    line-height: 1;
+    margin-top: 14px;
+}
+#main .main_cont .box_price del{
+    color: rgba(0,0,0,0.54);
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 12px;
+}
+#main .main_cont .box_cont_link{
+    width: 120px;
+    height: 30px;
+    background: #f1393a !important;
+    border-color: #f1393a !important;
+    font-size: 14px;
+    position: absolute;
+    right: 70px;
+    bottom: 15px;
+    z-index: 5;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+#main .main_cont .box_cont_link a{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+#main .main_cont .box_icon{
+    width: 190px;
+    height: 190px;
+}
+#main .main_cont .box_icon img{
+    width: 190px;
+    height: 190px;
+}
+#main .main_cont ol{
+    padding-bottom: 35px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.27);
+    margin-top: 100px;
+}
